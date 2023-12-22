@@ -1,6 +1,7 @@
 :root {
 
     --fs-xs: 12px;
+    --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-md: 20px;
     --fs-lg: 36px;
@@ -21,6 +22,10 @@
 /* font-size */
 .fs-12px {
     font-size: var(--fs-xs);
+}
+
+.fs-14px {
+    font-size: var(--fs-xsm);
 }
 
 .fs-16px {
