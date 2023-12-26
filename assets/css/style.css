@@ -120,21 +120,15 @@ input[type="checkbox"] {
 
 .border-f {
     border: 2px solid #9CA1BE;
-    border-radius: 35px;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .input-brdr {
     border: none;
     border-radius: 5px;
     outline: none !important;
-}
-
-.inputbox {
-    height: 42px;
-    max-width: 80%;
-    border-radius: 5px;
-    padding-left: 10px;
-    border: none;
+    max-width: 100%;
 }
 
 .border-2px {
@@ -162,8 +156,16 @@ input[type="checkbox"] {
     max-width: 642px;
 }
 
+.mw-856px {
+    max-width: 856px;
+}
+
 .l-hight {
     line-height: 28.8px;
+}
+
+.l-hight {
+    line-height: 24px;
 }
 
 @media (max-width:992px) {
