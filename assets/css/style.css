@@ -144,7 +144,7 @@ input[type="checkbox"] {
 
 .f-btn {
     border: none;
-    background-color: #2C49FE;
+    background-color: #18205C;
     color: #FFFFFF;
 }
 
@@ -232,13 +232,17 @@ input[type="checkbox"] {
     }
 
     .img-5 {
-        grid-column: 2/3;
+        grid-column: 2/4;
         grid-row: 3/4;
     }
 
     .img-6 {
         grid-column: 1/3;
         grid-row: 4/5;
+    }
+
+    .f-pading {
+        padding-top: 30px;
     }
 }
 
