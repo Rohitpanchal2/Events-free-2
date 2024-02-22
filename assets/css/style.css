@@ -222,7 +222,7 @@ input[type="checkbox"] {
 
 }
 
-.secect-btn {
+.select-btn {
     border: none;
     background-color: #E6E6E6;
     color: #5C5C5C;
@@ -230,10 +230,10 @@ input[type="checkbox"] {
     padding: 15px 30px;
 }
 
-.secect-btn:hover {
-    background-color: #1F33B2;
+.select-btn:hover {
     color: var(--color-pyorewhite);
-    transition: 0.8s;
+    background-color: #5C5C5C;
+    transition: 0.6s;
 }
 
 .create-btn {
@@ -251,16 +251,16 @@ input[type="checkbox"] {
 }
 
 .btn-input {
-    border: none;
+    border: 2px solid #2C49FE;
     padding: 12px 24px;
     border-radius: 30px;
-    background-color: var(--color-pyorewhite);
-    color: #000000;
+    background-color: #2C49FE;
+    color: var(--color-pyorewhite);
 }
 
 .btn-input:hover {
-    background-color: #2C49FE;
-    color: var(--color-pyorewhite);
+    color: #2C49FE;
+    background-color: var(--color-pyorewhite);
     transition: 0.6s;
 }
 
@@ -366,7 +366,7 @@ input[type="checkbox"] {
         padding: 10px 20px;
     }
 
-    .secect-btn {
+    .select-btn {
         padding: 10px 20px;
     }
 }
@@ -418,7 +418,7 @@ input[type="checkbox"] {
         padding: 7px 15px;
     }
 
-    .secect-btn {
+    .select-btn {
         padding: 7px 15px;
     }
 }
